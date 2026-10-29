@@ -1,0 +1,18 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit these
+*.env
+secrets.yml
+*-secrets.yml
+*-credentials.yml
+
+# Temp
+*.log
+*.tmp
